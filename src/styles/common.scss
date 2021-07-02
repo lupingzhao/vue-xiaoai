@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ul {
+    list-style: none;
+}
+
+/* 页面布局 整个页面主要分为三部分 顶部 内容 底部 */
+.head .content .foot
+
+/* 背景色 */
+/* 内容背景色 */
+.content {
+    background-color: rgb(165, 162, 162);
+}
+
+.bgc-white {
+    background-color: white;
+}
+
+.bgc-gray {
+    background-color: rgb(182, 181, 181);
+}
+
+
+/* 可视区域 适配区域 等同于content pc端*/
+/* 适配盒子 */
+.container-pc
+
+/* 内容 不弹性 */
+.w1 {
+    width: 1000px;
+    margin: auto;
+    font-size: 12px;
+}
+
+.w {
+    width: 1000px;
+    font-size: 12px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: white; */
+}
+
+/* 移动端，宽度百分比，相对父级而言*/
+.container {
+    max-width: 1024px;
+    min-width: 320px;
+}
+
+.width {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+
+
+/* 居中 */
+.m-c{
+    margin: auto;
+}
+
+/* 内边距 */
+
+.p-tb-5 {
+    padding: 5px 0;
+}
+
+.p-tb-10 {
+    padding: 10px 0;
+}
+
+.p-lr-10 {
+    padding: 0 10px;
+}
+
+.p-lr-5 {
+    padding: 0 5px;
+}
+
+.p-lr-2 {
+    padding: 0 2px;
+}
+
+.p-2 {
+    padding: 2px;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-25 {
+    padding-right: 25px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.p-tb-20 {
+    padding: 20px 0;
+}
+
+.p-t-10 {
+    padding-top: 10px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-b-10 {
+    padding-bottom: 10px;
+}
+
+.p-r-2 {
+    padding-right: 2px;
+}
+
+
+/* 外边距 */
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.m-l-15 {
+    margin-left: 15px;
+}
+
+.m-r-15 {
+    margin-right: 15px;
+}
+
+.m-r-25 {
+    margin-right: 25px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.m-tb-10 {
+    margin: 10px auto;
+}
+
+.m-tb-25 {
+    margin: 25px auto;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-lr-10 {
+    margin: 0 10px;
+}
+
+.m-5-10 {
+    margin: 5px 10px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-l-10 {
+    margin-left: 10px;
+}
+
+.m-t-5 {
+    margin-top: 5px;
+}
+
+
+/* 分布方式 */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcs {
+    justify-content: start;
+}
+
+.a-i-c {
+    align-items: center;
+}
+
+.a-i-fs {
+    align-items: flex-start;
+}
+
+.a-i-fe {
+    align-items: flex-end;
+}
+
+.t-a-c {
+    text-align: center;
+}
+
+.t-a-r {
+    text-align: right;
+}
+
+/* 边框 */
+.border-r {
+    border-right: 1px solid silver;
+}
+
+.border-b {
+    border-bottom: 1px solid silver;
+}
+
+.bor-r-1 {
+    border-right: 1px solid silver;
+}
+
+.border {
+    border: 1px solid silver;
+}
+
+.bor-l-1 {
+    border-left: 1px solid silver;
+}
+
+.bor-b {
+    border-bottom: 1px solid silver;
+}
+
+
+/* 圆点 */
+.dot-5 {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.dot-10 {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+/* 竖线 */
+.line {
+    width: 1px;
+    height: 12px;
+    margin: auto auto;
+    background-color: rgb(145, 141, 141);
+}
+
+/* 边框圆角 */
+.b-radius-10 {
+    border-radius: 10px;
+}
+
+.b-radius-5 {
+    border-radius: 5px;
+}
+
+/* 字体大小 颜色 */
+.font-s-16 {
+    font-size: 16px;
+}
+
+.font-w-7 {
+    font-weight: 700;
+}
+
+.font-s-12 {
+    font-size: 12px;
+}
+
+.font-s-14 {
+    font-size: 14px;
+}
+
+.font-s-18 {
+    font-size: 18px;
+}
+
+.font-c-red {
+    color: red;
+}
+
+.font-c-gray {
+    color: gray;
+}
+
+.font-c-w {
+    color: white;
+}
+
+.border-n {
+    border: none;
+}
+
+/* 背景透明度 */
+.rgba-black {
+    background-color: rgba(88, 87, 87, 1);
+}
+
+/* 透明度 */
+.bg-touming {
+    background: transparent;
+}
+
+/* 定位 */
+.pos-rel {
+    position: relative;
+}
+
+
+/* 省略号 */
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 搜索框 包含搜索按钮和输入框*/
+.search {
+    height: 25px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* div做输入框 */
+.search-div-input {
+    width: 250px;
+}
+
+/* input做输入框 */
+.input-ipt {
+    border: none;
+    outline: none;
+}
+
+/* 搜索框按钮 div做 */
+.search-anniu {
+    /* height: 27px;   控制线是否和整个框相连接 */
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #000;
+
+}
+
+/* input默认边框的去除方法 */
+.input-bk-n {
+    outline: none;
+}
+
+/* 鼠标样式 */
+.shou:hover {
+    cursor: pointer;
+}

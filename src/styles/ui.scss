@@ -1,0 +1,59 @@
+.about--input {
+
+    // 外层盒子
+
+    // 要修改标签的样式 f12 查找类名
+    .el-form-item__label {
+        color: black;
+        font-size: 16px;
+        text-align: left;
+        width: 120px;
+    }
+}
+
+.about--lable {
+    .el-menu-demo {
+        background-color: rgb(240, 242, 245);
+    }
+
+}
+
+// 侧边导航栏
+.about--left {
+
+    .el-menu {
+        border: none;
+        height: 100%;
+    }
+
+}
+
+// 上传图片
+.about--image {
+    .el-upload-list__item {
+        width: 200px;
+    }
+}
+
+// 进度条
+.about--element-jdt {
+    .el-progress-bar__outer {
+        height: 10px !important;
+    }
+
+    .el-progress--line {
+        height: 30px;
+    }
+}
+
+// 侧边栏从满屏幕
+html,
+body,
+#app,
+.c,
+.el-col,
+.about--left,
+.el-container,
+.about--menu {
+    height: 100%;
+}
